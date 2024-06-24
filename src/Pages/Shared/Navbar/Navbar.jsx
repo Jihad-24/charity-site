@@ -96,18 +96,16 @@ const Navbar = () => {
           </a>
         </div>
         <div>
-          <a
-            href="https://experimentlabs.in/login/66091628f26dbb3314a83e32"
-            target="_blank"
-            rel="noopener noreferrer"
+        <Link
+            to={`https://experimentlabs.in/login/66091628f26dbb3314a83e32`}
             style={{
               borderRadius: "8px",
               boxShadow: "0px 4px 10px 0px rgba(169, 169, 169, 0.25)",
             }}
-            className="bg-[#4555BA] lg:block hidden px-[25px] py-[10px] text-xl font-extrabold text-[#fff]"
+            className="lg:hidden bg-[#4555BA] px-[25px] py-[10px] text-xl font-extrabold text-[#fff]"
           >
             Log in
-          </a>
+          </Link>
         </div>
       </div>
     </div>
