@@ -26,7 +26,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="sticky top-0 bg-white flex lg:flex-row justify-between lg:items-center py-[20px] px-[35px] flex-col gap-5 lg:gap-0">
+    <div className="sticky top-0 bg-white flex lg:flex-row justify-between lg:items-center py-[20px] px-[35px] flex-col gap-5 lg:gap-0 max-w-[1440px] mx-auto">
       <div className="flex items-center justify-between gap-3">
         <div className="flex items-center font-bold text-xl text-[#000]">
           <h1>

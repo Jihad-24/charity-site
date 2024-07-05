@@ -17,11 +17,11 @@ const Home = () => {
   const data = {
     connectData: {
       heading: "Connect",
-      title: "Empowering Students and Experienced Adults",
+      title: "Empowering Young Entrepreneurs",
       description:
-        "Welcome to our website, where students who create charities can connect with experienced adults to receive valuable advice and guidance.",
-      primaryButton: "Connect",
-      secondaryButton: "Learn More",
+        "Sign up for our course to learn how to create your own charity within 4 weeks!",
+      primaryButton: "Learn More",
+      secondaryButton: "Sign Up",
       connectProfiles1: {
         name: "Max",
         about: "Blind person charity",
@@ -87,11 +87,11 @@ const Home = () => {
   };
 
   return (
-    <div className="font-roboto">
+    <div className="font-roboto max-w-[1440px] mx-auto">
       <section id="home" className="pt-10">
         <HeroSection heroData={data.heroData} />
       </section>
-      <section id="about-us" className="pt-10">
+      <section id="about-us" className="">
         <ConnectPage connectData={data.connectData} />
       </section>
       <section id="create-charity" className="pt-16">
