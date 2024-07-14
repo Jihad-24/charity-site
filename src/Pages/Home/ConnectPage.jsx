@@ -43,7 +43,6 @@ const ConnectPage = ({ connectData }) => {
             </button>
           </div>
         </div>
-
         <div className="">
           <img
             src={hero}
