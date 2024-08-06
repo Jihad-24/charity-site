@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 
 const HeroSection = ({ heroData }) => {
-  console.log(heroData);
+  // console.log(heroData);
+  
   return (
     <div>
       <div className="py-[30px] lg:px-[35px] px-5 ">
