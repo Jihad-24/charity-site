@@ -3,6 +3,7 @@ import iconbig from "../../assets/Relume.png";
 import iconsm from "../../assets/chevron-right.png";
 
 const ConnectPage = ({ connectData }) => {
+  
   return (
     <div className=" font-roboto mx-auto w-full">
       <div className=" w-full flex flex-col lg:flex-row items-center px-14 justify-between py-20 gap-16">

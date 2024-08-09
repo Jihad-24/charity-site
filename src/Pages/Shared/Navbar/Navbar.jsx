@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  
   const smoothScroll = (targetId) => {
     const targetElement = document.getElementById(targetId);
     if (targetElement) {
